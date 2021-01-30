@@ -1,0 +1,131 @@
+*{ margin:0; padding:0;}
+#headerrap{
+   
+    height:90px; 
+    width:100%;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.hicon ,#titlelog ,#hbuttenrap{
+    line-height: 90px;
+}
+a{
+     color:inherit;
+     text-decoration: none;
+}
+#headerrap{
+    display:flex;
+    justify-content:space-between;
+}
+#iconrap{
+    display:flex;
+    margin-left:15px;
+
+}
+#titlelog{
+    font-size:30px;
+    transform: translateX(-17px) ;
+}
+/*왜 안되는 거쥬?
+#intlog{
+   background-color:coral;
+}  */
+#hbuttenrap{
+    display:flex;
+    margin-right:13px;
+}
+.hbutten{
+    
+    margin: 0 10px;
+  
+    
+}
+.hbutten a{
+    
+    padding: 3px 3px;
+    border:1px solid #ddd;
+}
+.hicon{
+    font-size:27px;
+    padding: 0 13px;
+}
+
+/*section*/
+
+.main{
+    width: 100%;
+    height:900px;
+    position: absolute; 
+    border: 2px solid gray;
+    background-image: url(webcitypic2.jpg); 
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    
+}
+.leftbox{
+    position:relative;
+    left:9%;
+    top: 20%;
+    width:800px;
+    height:500px;
+    
+   
+}
+.rightbox{
+    float:right;
+    position:relative;
+    right:19%;
+    width:300px;
+    height:300px;
+    
+    top:-38%;
+}
+.leftbox h2{
+    font-size: 60px;
+}
+.leftbox p{
+    margin-top:53px;
+    font-size: 20px;
+}
+.inboxbutton{
+    margin-top:53px;
+    margin-left:20px;
+    display:inline-block;
+    padding:13px;
+    font-size:17px;
+    font-weight: bold;
+    background-color:black ;
+    color:aliceblue
+
+}
+.circle h3{
+    font-size:55px;
+    font-style: italic;
+}
+.circle{
+    background-color:coral;
+    display:inline-block;
+    padding:15px;
+    padding-left:5px;
+    border-radius:1000px ;
+    text-align: center;
+}
+.inboxlist{
+    margin-top:30px;
+    font-size:18px;
+    font-weight: bold;
+    
+    width:200px;
+}
+.inbl{
+    display:block;
+    letter-spacing:1px;
+    color:#333;
+    padding-bottom:5px ;
+    border-bottom: 1.5px solid black;
+}
+.inboxbottom{
+    font-size:40px;
+    
+}
+
